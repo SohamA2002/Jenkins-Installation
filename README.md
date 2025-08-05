@@ -46,4 +46,14 @@ sudo ufw enable
 sudo ufw status
 ```
 
+# 4. Check Security Group
+ Check Weather 8080 port is enabled in your aws instance Security Group.
+
+# 5. It’s time to set up Jenkins itself. Type in the IP of your EC2 along with the port number(0.0.0.0:8080 in browser). The Jenkins setup wizard will open.
+ To check the initial password, use the cat command as indicated below:
+```
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+ 
+
 
