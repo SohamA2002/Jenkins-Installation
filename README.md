@@ -54,6 +54,5 @@ sudo ufw status
 ```
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
- 
 
-
+ #  All Set! You can now start automating... #
