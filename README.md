@@ -1,15 +1,32 @@
 # Jenkins-Installation
 
-1. Installation of Java and Jenkins
+2. Installation of Java and Jenkins
 * First, update the default Ubuntu packages lists for upgrades with the following command:
 ```bash
 sudo apt-get update
 ```
 
-
+* Install Java
 ```bash
 sudo apt install fontconfig openjdk-21-jre
 java -version
 ```
+
+* Install Jenkins
+```bash
+sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
+  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins
+```
+
+```
+
+
+
+
 
 
