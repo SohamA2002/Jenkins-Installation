@@ -1,6 +1,8 @@
 # Jenkins-Installation
 
-2. Installation of Java and Jenkins
+1. Enable Instance with AWS and connect to instance via ssh or connect instance.
+
+3. Installation of Java and Jenkins
 * First, update the default Ubuntu packages lists for upgrades with the following command:
 ```bash
 sudo apt-get update
