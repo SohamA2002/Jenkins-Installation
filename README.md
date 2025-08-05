@@ -32,7 +32,7 @@ sudo systemctl start jenkins
 sudo systemctl status jenkins
 ```
 
-3. With Jenkins installed, we can proceed with adjusting the firewall settings. By default, Jenkins will run on port 8080.
+#### 3. With Jenkins installed, we can proceed with adjusting the firewall settings. By default, Jenkins will run on port 8080.
 
 * In order to ensure that this port is accessible, we will need to configure the built-in Ubuntu firewall (ufw). To open the 8080 port and enable the firewall, use the following commands:
 ```
